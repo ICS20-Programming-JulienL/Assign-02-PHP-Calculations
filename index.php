@@ -25,18 +25,23 @@
       <?php echo "<h4>Course: ICS20 Programming</h4>" ?>
       <br>
       <!--User Input-->
-      <?php echo "<p>With this calculator, that was coded in PHP, you will be able to solve any rectangular prism. Whether you're trying to calculate the volume of a box or that shelf that you've been meaning to install, this calculator has got you covered! </p>" ?>
+      <?php echo "<p>With this calculator, which was coded in PHP, you will be able to solve any rectangular prism. Whether you're trying to calculate the volume of a box or that shelf that you've been meaning to install, this calculator has got you covered! </p>" ?>
       <?php echo "<h3>Please enter the following:</h3>" ?>
       <form action="./results.php" method="post" target="result">
-        <label for="prismLength">Hours Worked</label>
-        <input type="number" id="prismLength" step=".001" placeholder="Enter hours worked" name="prismLength"><br><br>
-        <label for="prismWidth">Hourly Rate</label>
-        <input type="number" id="prismWidth" step=".001" placeholder="Enter your hourly rate" name="prismWidth"><br><br>
-        <label for="prismHeight">Prism Height</label>
-        <input type="number" id="prismHeight" step=".001" placeholder="Enter your hourly rate" name="prismHeight"><br><br>
+        <label for="prismLength">Length :</label>
+        <input type="number" id="prismLength" step=".001" placeholder="Enter the length" name="prismLength"><br><br>
+        <label for="prismWidth">Width :</label>
+        <input type="number" id="prismWidth" step=".001" placeholder="Enter the width" name="prismWidth"><br><br>
+        <label for="prismHeight">Height :</label>
+        <input type="number" id="prismHeight" step=".001" placeholder="Enter the height" name="prismHeight"><br><br>
         <input type="submit" value="Enter"><br><br>	
       </form>
-      <div id="result"></div>
+      <iframe id="result" name="result">
+        <?php echo "The surface area of your rectangular prism is "."$roundedVolume"."cm<sup>3</sup>.";?>
+        <br>
+        <?php echo "The surface area of your rectangular prism is "."$roundedSurfaceArea"."cm<sup>2</sup>.";?>
+      </iframe>
+      <br>
       <!--Image-->
       <img src="./images/volumeRectangularPrismPhp.png" alt="PHP Rectangular Prism" width = "500" height="350">
     </center>
