@@ -20,31 +20,25 @@
   <!--Header and Text-->
   <body>
     <center>
-    <?php echo "<h1> Volume and Surface Area of a Rectangular Prism </h1>" ?>
-    <?php echo "<h4>By: Julien Lamoureux</h4>" ?>
-    <?php echo "<h4>Course: ICS20 Programming</h4>" ?>
-    <br>
-    <br>
-    <!--User Input-->
-    <?php echo "<h3>Please enter the following:</h3>" ?>
-    <form action="./results.php" method="post" target="result">
-      <label for="prismLength">Hours Worked</label>
-      <input type="number" id="prismLength" step=".001" placeholder="Enter hours worked" name="prismLength"><br><br>
-      <label for="prismWidth">Hourly Rate</label>
-      <input type="number" id="prismWidth" step=".01" placeholder="Enter your hourly rate" name="prismWidth"><br><br>
-      <label for="prismHeight">Prism Height</label>
-      <input type="number" id="prismHeight" step=".01" placeholder="Enter your hourly rate" name="prismHeight"><br><br>
-      <input type="submit" value="Enter">
-    </center>
-			<br><br>	
-    </form>
+      <?php echo "<h1> Volume and Surface Area of a Rectangular Prism </h1>" ?>
+      <?php echo "<h4>By: Julien Lamoureux</h4>" ?>
+      <?php echo "<h4>Course: ICS20 Programming</h4>" ?>
+      <br>
+      <!--User Input-->
+      <?php echo "<p>With this calculator, that was coded in PHP, you will be able to solve any rectangular prism. Whether you're trying to calculate the volume of a box or that shelf that you've been meaning to install, this calculator has got you covered! </p>" ?>
+      <?php echo "<h3>Please enter the following:</h3>" ?>
+      <form action="./results.php" method="post" target="result">
+        <label for="prismLength">Hours Worked</label>
+        <input type="number" id="prismLength" step=".001" placeholder="Enter hours worked" name="prismLength"><br><br>
+        <label for="prismWidth">Hourly Rate</label>
+        <input type="number" id="prismWidth" step=".001" placeholder="Enter your hourly rate" name="prismWidth"><br><br>
+        <label for="prismHeight">Prism Height</label>
+        <input type="number" id="prismHeight" step=".001" placeholder="Enter your hourly rate" name="prismHeight"><br><br>
+        <input type="submit" value="Enter"><br><br>	
+      </form>
       <div id="result"></div>
-    <center>
-      <!--Final Result of User Input-->
-      <iframe id="result" name="result">
-        You earned "" + $netIncome
-        The government will take "" + $taxes
-      </iframe>
+      <!--Image-->
+      <img src="./images/volumeRectangularPrismPhp.png" alt="PHP Rectangular Prism" width = "500" height="350">
     </center>
   </body>
 </html>
