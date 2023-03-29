@@ -12,13 +12,21 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./fav_index_php/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./fav_index_php/favicon-16x16.png">
     <link rel="manifest" href="./fav_index_php/site.webmanifest">
+    <!--Link to MDL-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.purple-deep_purple.min.css"/>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
     <!-- Link to CSS file -->
     <link rel="stylesheet" href="./css/style.css">
     <!-- Title -->
     <title>Volume and Surface Area of a Rectangular Prism</title>
   </head>
-  <!--Header and Text-->
   <body>
+    <!-- Google's MDL -->
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    
+    <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <!--Header and Text-->
     <center>
       <?php echo "<h1> Volume and Surface Area of a Rectangular Prism </h1>" ?>
       <?php echo "<h4>By: Julien Lamoureux</h4>" ?>
@@ -44,6 +52,8 @@
       <br>
       <!--Image-->
       <img src="./images/volumeRectangularPrismPhp.png" alt="PHP Rectangular Prism" width = "500" height="350">
+      <!-- MDL Progress Bar with Indeterminate Progress -->
+      <div id="p2" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"></div>
     </center>
   </body>
 </html>

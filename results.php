@@ -14,7 +14,9 @@
   $surfaceArea = $widthLength+$heightLength+$heightWidth;
   $roundedSurfaceArea = round($surfaceArea, 2);
 ?>
-<h3>Results:</h3>
+<center>
+  <h3>Results:</h3>
 The volume of your rectangular prism is <?php echo "$roundedVolume"."cm<sup>3</sup>";?>
-<br>
-The surface area of your rectangular prism is <?php echo " $roundedSurfaceArea"."cm<sup>2</sup>";?>
+  <br>
+  The surface area of your rectangular prism is <?php echo " $roundedSurfaceArea"."cm<sup>2</sup>";?>
+</center>
