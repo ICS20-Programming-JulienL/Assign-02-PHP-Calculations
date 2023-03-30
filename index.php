@@ -36,11 +36,11 @@
       <?php echo "<p>With this calculator, which was coded in PHP, you will be able to solve any rectangular prism. Whether you're trying to calculate the volume of a box or that shelf that you've been meaning to install, this calculator has got you covered! </p>" ?>
       <?php echo "<h3>Please enter the following:</h3>" ?>
       <form action="./results.php" method="post" target="result">
-        <label for="prismLength">Length :</label>
+        <label for="prismLength">Length (cm):</label>
         <input type="number" id="prismLength" step=".001" placeholder="Enter the length" name="prismLength"><br><br>
-        <label for="prismWidth">Width :</label>
+        <label for="prismWidth">Width (cm):</label>
         <input type="number" id="prismWidth" step=".001" placeholder="Enter the width" name="prismWidth"><br><br>
-        <label for="prismHeight">Height :</label>
+        <label for="prismHeight">Height (cm):</label>
         <input type="number" id="prismHeight" step=".001" placeholder="Enter the height" name="prismHeight"><br><br>
         <input type="submit" value="Enter"><br><br>	
       </form>

@@ -16,7 +16,7 @@
 ?>
 <center>
   <h3>Results:</h3>
-The volume of your rectangular prism is <?php echo "$roundedVolume"."cm<sup>3</sup>";?>
+The volume of your rectangular prism is <?php echo "$roundedVolume"."cm<sup>3</sup>.";?>
   <br>
-  The surface area of your rectangular prism is <?php echo " $roundedSurfaceArea"."cm<sup>2</sup>";?>
+  The surface area of your rectangular prism is <?php echo " $roundedSurfaceArea"."cm<sup>2</sup>.";?>
 </center>
