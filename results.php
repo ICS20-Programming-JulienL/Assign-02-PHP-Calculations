@@ -15,6 +15,7 @@
   $roundedSurfaceArea = round($surfaceArea, 2);
 ?>
 <center>
+  <!--Display results-->
   <h3>Results:</h3>
 The volume of your rectangular prism is <?php echo "$roundedVolume"."cm<sup>3</sup>.";?>
   <br>

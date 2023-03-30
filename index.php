@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- ICS2O-Assign-02-PHP-Calculations -->
 <html lang="en-ca">
   <head>
     <!-- Metadata -->
@@ -44,6 +45,7 @@
         <input type="number" id="prismHeight" step=".001" placeholder="Enter the height" name="prismHeight"><br><br>
         <input type="submit" value="Enter"><br><br>	
       </form>
+      <!--Display results-->
       <iframe id="result" name="result">
         <?php echo "The surface area of your rectangular prism is "."$roundedVolume"."cm<sup>3</sup>.";?>
         <br>
