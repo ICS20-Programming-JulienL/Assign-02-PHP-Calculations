@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="Volume and Surface Area of a Rectangular Prism">
     <meta name="keywords" content="immaculata, ics2o">
-    <meta name="author" content="Ms Raffin">
+    <meta name="author" content="Julien L.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Code for the favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="./fav_index_php/apple-touch-icon.png">
